@@ -1,0 +1,158 @@
+@media screen and ( max-width: 576px) {
+    .nav-main{  
+        max-width: 576px;
+        margin: 0 auto;
+    }
+    .nav-br-flex{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .hamburger-menu{
+        display: block;
+        color: white;
+        font-size: 30px;
+    }
+    .nav-elements{
+        display: none;
+    }
+    .nav-banner-flex{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .nav-banner-details{
+        width: 95%;
+    }
+    .nav-banner-pic{
+        width: 100%;
+
+    }
+    .nav-banner-pic img{
+        width: 100%;
+    }
+    .nav-banner-details h1{
+        color: white;
+        font-size: 4rem;
+    }
+    .banner-highlight-one{
+        position: absolute;
+        right: 28px;
+        top: 232px;
+    }
+    .banner-highlight-two{
+        position: absolute;
+        bottom: 107px;
+        left: 14px;
+    }
+
+.habit-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+}
+.habit-card{
+    width: 50%;
+    text-align: center;
+}
+
+.run-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.run-text {
+    width: 100%;
+}
+.run-img{
+    width: 100%;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+    .BMI-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .BMI-chart-section {
+        width: 100%;
+    }
+    .Calculate-BMI{
+        width: 100%;
+    }
+    .BMI-input input {
+        width: 35%;
+    }
+    .gender-box{
+        width: 40%;
+    }
+    .activity-box{
+        width: 88%;
+    }
+    .BMI-headline{
+        width: 85%;
+    }
+
+     .latest-training{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;  
+    }
+    .training-card{
+        width: 80%;
+        
+    }  
+    .success-flex{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .success-img{
+        width: 100%;
+    }
+    .success-text{
+        width: 100%;
+    }
+    .team-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .team-bg{
+        width: 80%;
+    }
+    .trainer-hidden{
+        display: none;
+    }
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.footer-sec-one{
+    width: 90%;
+}
+.footer-sec-two{
+    width: 90%;
+}
+.footer-sec-three{
+    width: 90%;
+}
+.footer-line{
+    width: 90%;
+    margin: 0 auto;
+}
+}
